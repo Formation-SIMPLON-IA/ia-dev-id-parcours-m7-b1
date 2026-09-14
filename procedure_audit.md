@@ -9,8 +9,10 @@ refonte). Les 2 lectorats du rapport (technique / DPO)._
 
 ## 2. Audit éthique
 _Variables sensibles (directes/indirectes) ; **disparate impact chiffré** sur ≥ 1
-variable ; RGPD santé (art. 9, minimisation, conservation) ; AI Act (classification
-risque + 3 obligations probables) ; décision automatisée (art. 22)._
+variable **puis investigué** (préjudice défini, erreurs par groupe, étiquette vs
+réalité) ; RGPD santé (art. 9, minimisation, conservation) ; **usage réel** du score ;
+AI Act (**qualification raisonnée** art. 6 → obligations si haut risque) ; art. 22
+(2 conditions examinées)._
 
 ## 3. Audit technique
 _Architecture (modularité, couplage) ; sécurité (secrets, validation, transport) ;

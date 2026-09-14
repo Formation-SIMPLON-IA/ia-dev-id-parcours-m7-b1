@@ -1,7 +1,9 @@
 # M7-B1 — Auditer une architecture IA héritée (MediVox Cliniques)
 
 > **Repo template.** « Use this template » → `M7-B1-medivox-audit-<prenom>`.
-> Tu audites le prédicteur DMS hérité et rends un rapport à Hélène (DT) et Marc (DPO).
+> Tu audites le prédicteur hérité — vendu comme « prédicteur DMS », il signale en
+> fait les **séjours à risque de prolongation** — et rends un rapport à Hélène (DT)
+> et Marc (DPO).
 > ⚠️ Semaine atypique : **lundi + mercredi** (pas mardi).
 
 ---
@@ -34,14 +36,16 @@
 | Mercredi 12h30 | 10. Mur réflexif final + lancement B2 | 30 min | — |
 
 > Le lundi ouvre sur la **confrontation des politiques M6-B2** (9h00-10h00)
-> — l'audit démarre à 10h, le rythme est plus dense qu'affiché sur le
-> brief : c'est voulu.
+> — l'audit démarre à 10h. Budget : **7 h de production** (étapes 1-5 et 7)
+> + ~1 h 45 de rituels (murs réflexifs, tour de table).
 
 ### ✅ Checklist livrables (avant mercredi 12h30)
 
 - [ ] `pytest -q tests` vert dès le clone (l'environnement d'audit fonctionne)
-- [ ] **Disparate impact calculé** sur ≥ 1 variable sensible (pas juste signalé)
-- [ ] 3 obligations AI Act citées (transparence / traçabilité / supervision)
+- [ ] **Disparate impact calculé** sur ≥ 1 variable sensible, **puis investigué**
+      (préjudice défini, FNR/FPR par groupe, étiquette confrontée à `dms_jours`)
+- [ ] **Qualification AI Act raisonnée** (art. 6, usage réel décrit) + art. 22
+      examiné sur ses 2 conditions — pas de « santé = haut risque » présumé
 - [ ] Mesures psutil **chiffrées** et comparées à ≥ 1 alternative
 - [ ] Tableau ≥ 12 lignes en 🔴/🟠/🟡 (`audit/04_consolidation.md`)
 - [ ] Rapport qui **hiérarchise et questionne** — sans proposer la solution

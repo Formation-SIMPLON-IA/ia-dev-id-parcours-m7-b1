@@ -31,7 +31,8 @@ signale qui doit en tirer quoi. C'est exactement la compétence de communication
 ```markdown
 ## 1. Synthèse exécutive (5 min)
 Le modèle fonctionne mais expose MediVox à un risque juridique :
-⚖️ il discrimine selon le sexe (DI 0.29), sans traçabilité.
+⚖️ <écart mesuré entre groupes + qui en subit l'erreur>, sans traçabilité
+   — à confirmer par <la question ouverte qui tranche>.
 👩‍💻 tout repose sur une seule machine, sans CI/CD.
 
 ## 3. Volet éthique ⚖️ (pour Marc)

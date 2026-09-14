@@ -1,4 +1,4 @@
-# Rapport d'audit — DMS predictor v1 (MediVox) — À COMPLÉTER
+# Rapport d'audit — prédicteur de séjour prolongé v1 (MediVox) — À COMPLÉTER
 
 > 2 lectorats : 👩‍💻 Hélène (technique) · ⚖️ Marc (DPO). Renomme en rapport_audit.md.
 

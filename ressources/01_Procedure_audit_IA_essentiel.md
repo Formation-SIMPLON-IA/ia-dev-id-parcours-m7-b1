@@ -22,7 +22,7 @@ cible (ça, c'est la phase d'évolution suivante).
   code, dataset) et ce qu'on exclut (AIPD, pen-test, refonte). Cadre les attentes.
 - **3 volets** : éthique (biais, RGPD, AI Act), technique (archi, sécurité,
   scalabilité), ressources (psutil, sobriété).
-- **Chiffrer, pas juger** : « DI F/M = 0.29 », « 207 Mo RSS » — pas « ça
+- **Chiffrer, pas juger** : « FNR 0,41 vs 0,12 selon le groupe », « 207 Mo RSS » — pas « ça
   consomme beaucoup ».
 - **Hiérarchiser** : sévérité 🔴/🟠/🟡 + conséquence client. Tout n'est pas au
   même niveau.
@@ -35,12 +35,12 @@ cible (ça, c'est la phase d'évolution suivante).
 
 ```markdown
 ## 1. Périmètre
-Audité : modèle DMS, code legacy/, dataset. Exclu : AIPD, pen-test, refonte.
+Audité : modèle de prédiction, code legacy/, dataset. Exclu : AIPD, pen-test, refonte.
 
 ## 5. Tableau consolidé
 | Indicateur | Sévérité | Conséquence client |
 |---|---|---|
-| sexe utilisé en feature | 🔴 | discrimination directe indéfendable |
+| variable sensible en feature, sans justification clinique | 🔴 | écart de traitement non défendable devant le DPO |
 ```
 
 ## Exercice guidé
@@ -68,7 +68,7 @@ Audité : modèle DMS, code legacy/, dataset. Exclu : AIPD, pen-test, refonte.
 
 ## Pour aller plus loin
 
-- AI Act — obligations « haut risque » : https://artificialintelligenceact.eu/the-act/
+- AI Act — qualification du risque (art. 6) : https://eur-lex.europa.eu/eli/reg/2024/1689/oj
 - Model Cards (Mitchell) : https://arxiv.org/abs/1810.03993
 
 ## Vérification (checklist apprenant)
