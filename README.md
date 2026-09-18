@@ -30,16 +30,17 @@
 | Lundi 14h45 | 4. Audit ressources (psutil + alternatives) | 1h15 | `04` |
 | Lundi 16h00 | 5. Consolidation — tableau de risques 🔴/🟠/🟡 | 45 min | — |
 | Lundi 16h45 | 6. Mur réflexif intermédiaire | 15 min | — |
-| Mercredi 9h15 | 7. Rapport client (2 lectorats : Hélène / Marc) | 2h | `05` |
-| Mercredi 11h15 | 8. Préparation tour de table | 15 min | — |
-| Mercredi 11h30 | 9. Tour de table audits | 1h | — |
-| Mercredi 12h30 | 10. Mur réflexif final + lancement B2 | 30 min | — |
+| Mercredi 14h10 | 7. Rapport client (2 lectorats : Hélène / Marc) | 2h (pause incluse) | `05` |
+| Mercredi 16h00 | 8. Commit de rendu + préparation du tour de table | 10 min | — |
+| Mercredi 16h10 | 9. Tour de table audits (5 min chacun) | 55 min | — |
+| Mercredi 17h05 | 10. Mur réflexif final, puis lancement B2 | 55 min | — |
 
-> Le lundi ouvre sur la **confrontation des politiques M6-B2** (9h00-10h00)
-> — l'audit démarre à 10h. Budget : **7 h de production** (étapes 1-5 et 7)
-> + ~1 h 45 de rituels (murs réflexifs, tour de table).
+> ⚠️ **Semaine atypique** : lundi **9h-17h** et mercredi **14h-18h** (pas le
+> matin). Le lundi ouvre sur la **confrontation des politiques M6-B2**
+> (9h00-10h00) — l'audit démarre à 10h. Budget : **7 h de production**
+> (étapes 1-5 et 7) + ~1 h 45 de rituels (murs réflexifs, tour de table).
 
-### ✅ Checklist livrables (avant mercredi 12h30)
+### ✅ Checklist livrables (avant mercredi 16h00)
 
 - [ ] `pytest -q tests` vert dès le clone (l'environnement d'audit fonctionne)
 - [ ] **Disparate impact calculé** sur ≥ 1 variable sensible, **puis investigué**
